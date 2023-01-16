@@ -12,7 +12,6 @@ double deg_to_rads(int degrees)
 {
     double rad;
 
-    rad = 0;
-    rad = degrees * (M_PI / 180);
+    rad = degrees * (M_PI / 180.0);
     return (rad);
 }
