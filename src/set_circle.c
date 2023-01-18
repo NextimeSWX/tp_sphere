@@ -21,7 +21,6 @@ void stu_set_circle(t_bunny_pixelarray *px,
         pos.x = (cos(deg_to_rads(degrees)) * radius) + x;
         pos.y = (sin(deg_to_rads(degrees)) * radius * -1) + y;
         put_pixel(&pos, px, WHITE);
-        //printf("%f\n", rad);
         degrees += 1;
     }
 }

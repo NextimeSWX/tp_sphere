@@ -14,7 +14,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void stu_set_circle(t_bunny_pixelarray *pxa,
+void stu_set_circle(t_bunny_pixelarray *px,
                      int x,
                      int y,
                      int radius);
