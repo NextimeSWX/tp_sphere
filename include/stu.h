@@ -14,10 +14,15 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void stu_set_circle(t_bunny_pixelarray *px,
+void stu_set_spiral(t_bunny_pixelarray *px,
                      int x,
                      int y,
-                     int radius);
+                    int radius,
+                    int loops);
+void stu_set_circle(t_bunny_pixelarray *px,
+                    int x,
+                    int y,
+                    int radius);
 void put_pixel(t_bunny_position *pos,
                t_bunny_pixelarray *px,
                unsigned int color);
