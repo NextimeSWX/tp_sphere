@@ -8,9 +8,6 @@
 
 #include "stu.h"
 
-
-#include <stdio.h>
-
 void stu_set_spiral(t_bunny_pixelarray *px,
                     int x,
                     int y,
