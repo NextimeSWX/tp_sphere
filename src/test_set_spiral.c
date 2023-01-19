@@ -3,7 +3,7 @@
  * project:     tp_sphere
  * created on:  2023-01-13 - 14:28 +0100
  * 1st author:  evan.lebihan - evan.lebihan
- * description: test_set_circle.c
+ * description: test_set_spiral.c
  */
 
 #include "stu.h"
