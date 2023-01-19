@@ -15,6 +15,5 @@ int main(void)
     int degrees;
 
     degrees = 26;
-    //deg_to_rads(degrees);
     printf("%f\n", deg_to_rads(degrees));
 }
